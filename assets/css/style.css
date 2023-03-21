@@ -99,3 +99,14 @@ body {
     margin-top: 50px;
     margin-right: 10px;
 }
+
+/* Media Queries */
+
+@media (max-width:380px) {
+    html {
+        zoom:100%
+    }
+    body {
+        text-align: center;
+    }
+}

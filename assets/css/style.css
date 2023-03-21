@@ -1,0 +1,101 @@
+html {
+    zoom: 80%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.top-box {
+    margin: 50px 0;
+}
+.reliable {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%)
+}
+
+.powered {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+.para-one {
+    margin-top: 20px;
+    color: hsl(229, 6%, 66%);
+}
+
+/* outer Box */
+
+.outer-box {
+    /* border: 1px solid red; */
+    width: 1100px;
+    /* height: 500px; */
+    margin: 0 auto;
+}
+
+
+/* Columns */
+.card {
+    border: none;
+    /* box-shadow: 3px 5px 7px hsl(0, 0%, 98%); */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    
+    width: 350px;
+    text-align: left;
+    padding: 10% 10% 0;
+    height: 250px;
+    
+    
+}
+
+.side-col {
+    margin-top: 150px;
+}
+/* Borders -top */
+
+.b-cyan {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.b-red {
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    margin-top: 20px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.b-blue {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+.card-title {
+    color: hsl(234, 12%, 34%);
+    
+    font-weight: 600;
+}
+
+.card-text {
+    margin-top: 20px;
+    color: hsl(229, 6%, 66%);
+    font-size: 13px;
+}
+
+/* Card image */
+
+.card-img {
+    width: 60px;
+    height: 60px;
+    /* align img to right */
+    /* ----- */
+    display: block;
+    margin-left: auto;
+    /* ----- */
+    margin-top: 50px;
+    margin-right: 10px;
+}
